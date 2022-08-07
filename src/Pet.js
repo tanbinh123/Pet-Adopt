@@ -9,7 +9,7 @@ const Pet = (props) => {
           src={
             images?.length
               ? images[0]
-              : "http://pets-images.dev-apis.com/pets/none.jpg"
+              : "https://pets-images.dev-apis.com/pets/none.jpg"
           }
           alt={name}
         />
